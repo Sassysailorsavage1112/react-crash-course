@@ -1,24 +1,15 @@
 import logo from './logo.svg';
-import './App.css';
+import Todo from './components/Todo.jsx'
+import Title from './components/Title.jsx'
 
 function App() {
   return (
-    <div >
+    <div>
  <h1>My To Do List:</h1>
- <div>
-  <h2>Finish Frontend Simplified</h2>
-  <span>Description</span>
-  <button>Delete</button>
- </div>
- <div>
-  <h2>Finish the Interview Section</h2>
-  <span>Description</span>
-  <button>Delete</button>
- </div><div>
-  <h2>Land a Job that pays more than $150,000</h2>
-  <span>Description</span>
-  <button>Delete</button>
- </div>
+ <Todo></Todo>
+ <Todo></Todo>
+ <Todo></Todo>
+
     </div>
   );
 }
