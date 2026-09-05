@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import Todo from './components/Todo.jsx'
 import Title from './components/Title.jsx'
 import "./App.css";
-
+import Modal from './components/Modal.jsx'
 function App() {
   return (
     <div>
