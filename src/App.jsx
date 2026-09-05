@@ -5,7 +5,7 @@ import Title from './components/Title.jsx'
 function App() {
   return (
     <div>
- <h1>My To Do List:</h1>
+ <Title />
  <Todo></Todo>
  <Todo></Todo>
  <Todo></Todo>
