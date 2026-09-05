@@ -7,6 +7,7 @@ function App() {
  <h1>My To Do List:</h1>
  <div>
   <h2>Finish Frontend Simplified</h2>
+  <button>delete</button>
  </div>
     </div>
   );
