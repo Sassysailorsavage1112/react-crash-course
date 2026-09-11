@@ -8,7 +8,7 @@ function App() {
     <>
  <Title />
  <div className="todo__wrapper">
- <Todo title="Finish Frontend Simplified" />
+ <Todo title= "Finish Frontend Simplified" />
  <Todo title= "Finish the Interview Section on Frontend Simplified" />
  <Todo title= "Land a > $150,000k job that I love" />
 </div>
