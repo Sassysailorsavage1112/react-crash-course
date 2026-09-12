@@ -7,7 +7,9 @@ function Todo({title, paragraph}) {
   <h2>{ title }</h2>
   <p>{paragraph} </p>
   <span>Description</span>
-  <button>Delete</button>
+  <button onClick={() => {
+    console.log('clicked')
+  }}>Delete</button>
  </div>
     ) 
 }
