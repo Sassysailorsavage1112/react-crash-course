@@ -1,7 +1,7 @@
 import './Todo.css'
 
 function Todo({title, paragraph}) {
-    function deletTodo() {
+    function deleteTodo() {
    console.log('deletTodo()')
     }
 
