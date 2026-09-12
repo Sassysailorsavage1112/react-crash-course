@@ -10,6 +10,7 @@ function App() {
 
   function toggleModal() {
     isModalOpen = !isModalOpen;
+    console.log(isModalOpen);
   }
 
   return (
