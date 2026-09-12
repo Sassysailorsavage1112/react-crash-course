@@ -21,7 +21,7 @@ console.log(event.target.value)
  <Todo
   title= "Land a > $150,000k job that I love"/>
 </div>
-{/* <Modal title="Are you sure you want to delete?" /> */}
+<Modal title="Are you sure you want to delete?" />
     </div>
   );
 }
