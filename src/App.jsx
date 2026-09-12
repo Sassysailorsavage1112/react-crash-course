@@ -27,8 +27,7 @@ function App() {
         <Todo title="Finish the Interview Section on Frontend Simplified" />
         <Todo title="Land a > $150,000k job that I love" />
       </div>
-
-      {isModalOpen ? <Modal title="Confirm Delete?" /> : null}
+      {isModalOpen && <Modal title="Confirm Delete?" /> : null}
     </div>
   );
 }
