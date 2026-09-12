@@ -19,7 +19,7 @@ function App() {
   title= "Land a > $150,000k job that I love"
   paragraph= "Apply to 100 jobs." />
 </div>
-{/* <Modal /> */}
+{/* <Modal title="Are you sure you want to delete?" /> */}
     </>
   );
 }
