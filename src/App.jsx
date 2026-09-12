@@ -26,8 +26,7 @@ function App() {
         <Todo title="Land a > $150,000k job that I love" />
       </div>
 
-      {true && <Modal title="Are you sure you want to delete?" />}
-      {true && <Modal title="Confirm Delete" />}
+      {/* <Modal title="Are you sure you want to delete?" /> */}
     </div>
   );
 }
