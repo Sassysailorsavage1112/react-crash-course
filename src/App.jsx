@@ -6,12 +6,7 @@ import Modal from './components/Modal.jsx';
 import React, { useState } from 'react';
 
 function App() {
-  let isModalOpen = false;
-
-  function toggleModal() {
-    isModalOpen = !isModalOpen;
-    console.log(isModalOpen);
-  }
+ 
 
   return (
     <div>
@@ -24,7 +19,7 @@ function App() {
             console.log(event.target.value);
           }}
         />
-        <button onClick={toggleModal}>Add todo</button>
+        <button>Add todo</button>
       </div>
 
       <div className="todo__wrapper">
@@ -32,7 +27,7 @@ function App() {
         <Todo title="Finish the Interview Section on Frontend Simplified" />
         <Todo title="Land a > $150,000k job that I love" />
       </div>
-      {isModalOpen && <Modal title="Confirm Delete?" /> : null}
+      {true && <Modal title="Confirm Delete?" /> : null}
     </div>
   );
 }
