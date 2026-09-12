@@ -2,7 +2,7 @@ import './Todo.css'
 
 function Todo({title, paragraph}) {
     function deleteTodo(id) {
-   console.log('deletTodo()', title
+   console.log('deletTodo()', title.toUpperCase())
     }
 
     return(
