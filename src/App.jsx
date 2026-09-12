@@ -8,6 +8,10 @@ import React, { useState } from 'react';
 function App() {
   let isModalOpen = false;
 
+  function toggleModal() {
+    isModalOpen = !isModalOpen;
+  }
+
   return (
     <div>
       <Title />
