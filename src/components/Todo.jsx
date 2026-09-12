@@ -1,8 +1,8 @@
-bimport './Todo.css'
+import './Todo.css'
 
 function Todo({title, paragraph}) {
     function deletTodo() {
-    console.log('deleteTodo'()')
+   console.log('deletTodo()')
     }
 
     return(
