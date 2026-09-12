@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 
 function App() {
   let isModalOpen = false;
-  
+
   return (
     <div>
       <Title />
@@ -28,7 +28,7 @@ function App() {
         <Todo title="Land a > $150,000k job that I love" />
       </div>
 
-      {/* <Modal title="Are you sure you want to delete?" /> */}
+      {/* <Modal title="Confirm Delete" /> */}
     </div>
   );
 }
