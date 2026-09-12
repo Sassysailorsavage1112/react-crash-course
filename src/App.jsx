@@ -6,6 +6,8 @@ import Modal from './components/Modal.jsx';
 import React, { useState } from 'react';
 
 function App() {
+  let isModalOpen = false;
+  
   return (
     <div>
       <Title />
