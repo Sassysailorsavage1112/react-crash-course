@@ -6,8 +6,8 @@ import Modal from './components/Modal.jsx';
 import React, { useState } from 'react';
 
 function App() {
- const [showModal, setShowModal] = useState(true)
-setShowModal(false)
+ const [showModal, setShowModal] = useState(false)
+
   return (
     <div>
       <Title />
