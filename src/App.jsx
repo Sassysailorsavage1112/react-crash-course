@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 
 function App() {
  const [showModal, setShowModal] = useState(true)
-
+setShowModal(false)
   return (
     <div>
       <Title />
