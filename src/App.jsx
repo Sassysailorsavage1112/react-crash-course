@@ -4,7 +4,7 @@ import Title from './components/Title.jsx';
 import './App.css';
 import Modal from './components/Modal.jsx';
 import React, { useState } from 'react';
-
+import Counter from './components/Counter.jsx';
 function App() {
 /**
  * 1. Create a "Counter.jsx" component
@@ -12,7 +12,7 @@ function App() {
  * 3. Create a button to increment 'count' by 1 
  * 4. Createa button to decrement 'count' by 1
  * 5. Import your Counter in App.jsx and test it
- * /
+ */
   return <Counter />
 
   const [showModal, setShowModal] = useState(false);
