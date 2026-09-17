@@ -1,24 +1,19 @@
-import React, { useState } from 'react';
-
-
 function Counter() {
-    const [count, setCounter] = useState(0);
-    function increment() {
-        setCounter(count + 1);
-        console.log('incrementCounter()');
-    }
+  const [counter, setCounter] = useState(0);
 
-    function decrementCounter() {
-        setCounter(count - 1);
-        console.log('decrementCounter()');
-    }
-    return (
-        <div>
-<button onClick={decrementCounter}>-</button>
-{count}
-<button onClick={increment}>+</button>
-</div>
-    )
+  function incrementCounter() {
+    setCounter(counter + 1);
+  }
+
+  function decrementCounter() {
+    setCounter(counter - 1);
+  }
+
+  return (
+    <div>
+      <button onClick={decrementCounter}>-</button>
+      {counter}
+      <button onClick={incrementCounter}>+</button>
+    </div>
+  );
 }
-
-export default Counter
