@@ -6,7 +6,16 @@ import Modal from './components/Modal.jsx';
 import React, { useState } from 'react';
 
 function App() {
- const [showModal, setShowModal] = useState(false)
+/**
+ * 1. Create a "Counter.jsx" component
+ * 2. Create a default 'count' of 0
+ * 3. Create a button to increment 'count' by 1 
+ * 4. Createa button to decrement 'count' by 1
+ * 5. Import your Counter in App.jsx and test it
+ * /
+  return <Counter />
+
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <div>
