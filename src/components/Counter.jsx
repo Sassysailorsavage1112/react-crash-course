@@ -14,7 +14,7 @@ setCart(prevCart => ({
     function removeApple() {
       // 1. Use a callback to get the previous 
       // 2. Spread out all the properties of the prev state
-      // 3. 
+      // 3. Only change the property that you need to change
   setCart(prevCart => ({
     ...prevCart,
     quantity: prevCart.quantity -1
