@@ -9,11 +9,17 @@ function Counter() {
     function addApple() {
 setCart(prevCart => ({
   ...prevCart,
-  quantity: 1,
+  quantity: prevCart.quantity + 1,
     }))}
+    function removeApple() {
+  setCart(prevCart => ({
+    ...prevCart,
+    quantity: prevCart.quantity -1
+  }))
+}
   return (
     <div>
-      <button onClick={() => null}>-</button>
+      <button onClick={removeApple}>-</button>
       {cart.quantity}
       {cart.item}
       <button onClick={addApple}>+</button>
